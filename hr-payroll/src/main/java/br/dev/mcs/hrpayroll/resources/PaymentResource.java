@@ -21,6 +21,4 @@ public class PaymentResource {
         Payment payment = services.getPayment(workerId,days);
         return ResponseEntity.ok(payment);
     }
-
-
 }
